@@ -1,0 +1,582 @@
+/* ALL */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: DMSerifDisplay;
+    src: url(../fonts/DMSerifDisplay-Regular.ttf);
+}
+
+@font-face {
+    font-family: Rubik;
+    src: url(../fonts/Rubik-Regular.ttf);
+}
+
+body {
+    background-color: #FEF8F5;
+}
+
+.btn {
+    background-color: #EE4D47;
+    border: 1px solid transparent;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Rubik;
+    font-weight: 700;
+    font-size: 1.5vh;
+    line-height: 2vh;
+    letter-spacing: 5%;
+    color: #fff;
+}
+
+/* HEADER */
+
+header {
+    position: relative;
+    background-image: url(../images/bg-1.png);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100vh;
+}
+
+header nav {
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.h__logo {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10%;
+}
+
+.h__logo h1 {
+    font-family: DMSerifDisplay;
+    font-weight: 400;
+    font-size: 3vh;
+    line-height: 3vh;
+    color: #fff;
+}
+
+.h__btn {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    text-align: center;
+}
+
+.h__btn a {
+    text-decoration: none;
+    font-family: Rubik;
+    font-weight: 700;
+    font-size: 1.5vh;
+    line-height: 2vh;
+    letter-spacing: 5%;
+    color: #fff;
+}
+
+/* SECTION->TOP */
+.top {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 50%;
+    margin: 2% 0 0 15%;
+}
+
+.t__title {
+    font-family: DMSerifDisplay;
+    font-weight: 400;
+    font-size: 10vh;
+    line-height: 10vh;
+    color: #fff;
+}
+
+.t__btn svg {
+    margin-left: 10px;
+}
+
+/* BG-2 */
+.bg-2 {
+    position: absolute;
+    top: 65vh;
+    left: 0;
+    width: 100%;
+}
+
+.bg-2 img {
+    object-fit: cover;
+    width: 30%;
+}
+
+/* SECTION->ABOUT US */
+.about-us, .how-to-apply {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 90%;
+    margin: 5em auto;
+}
+
+.au__content {
+    justify-self: center;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.au__c-1 h1 {
+    font-family: Rubik;
+    font-weight: 700;
+    font-size: 2.5vh;
+    line-height: 4vh;
+    letter-spacing: 0.1em;
+    color: #EE4D47;
+    margin-bottom: 20px;
+}
+
+.au__c-1 p {
+    font-family: Rubik;
+    font-weight: 300;
+    font-size: 1.5vh;
+    line-height: 3vh;
+    color: #402B2B;
+}
+
+.au__c-2 {
+    padding: 20px;
+    border-left: 10px solid #ED4D47;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: #FCDDD4;
+}
+
+.au__c-2 p {
+    font-family: Rubik;
+    font-weight: 500;
+    font-size: 2vh;
+    line-height: 3vh;
+    color: #402B2B;
+}
+
+.au__image img, .hta__image img {
+    object-fit: cover;
+    width: 80%;
+}
+
+/* SECTION->HOW-TO-APPLY */
+.how-to-apply {
+    width: 70%;
+}
+
+.hta__content {
+    align-self: center;
+    justify-self: center;
+}
+
+.hta__content h1 {
+    font-family: Rubik;
+    font-weight: 700;
+    font-size: 2.5vh;
+    line-height: 4vh;
+    letter-spacing: 0.1em;
+    color: #EE4D47;
+    margin-bottom: 20px;
+}
+
+.hta__content p {
+    font-family: Rubik;
+    font-weight: 300;
+    font-size: 1.5vh;
+    line-height: 3.5vh;
+    color: #402B2B;
+}
+
+.hta__image img {
+    width: 100%;
+}
+
+/* SECTION->FAQ */
+.faq {
+    background-image: url(../images/bg-3.png);
+    background-position: 100% 0;
+    background-repeat: no-repeat;
+    background-size: 65%;
+    display: flex;
+    flex-direction: column;
+    margin: 5em 5em;
+}
+
+.faq__head {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+
+.faq__h-1 {
+    justify-self: flex-end;
+    margin-bottom: 20px;
+}
+
+.faq__h-1 h1 {
+    font-family: Rubik;
+    font-weight: 700;
+    font-size: 2.5vh;
+    line-height: 3vh;
+    letter-spacing: 0.1em;
+    color: #EE4D47;
+}
+
+.faq__h-1 p {
+    font-family: DMSerifDisplay;
+    font-weight: 400;
+    font-size: 4vh;
+    line-height: 6vh;
+    color: #402B2B;
+}
+
+.faq__h-2 img {
+    width: 80%;
+}
+
+.faq__content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 50px;
+}
+
+.faq__c-1 {
+    display: grid;
+    grid-template-rows: 3fr repeat(3, 1fr);
+    grid-row-gap: 20px;
+    width: 80%;
+    height: 500px;
+}
+
+.faq__c-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.faq__c-item.active {
+    background-color: #FFF7F5;
+    box-shadow: 0px 20px 40px 0px #EE4D471A;
+    border-radius: 10px;
+}
+
+.faq__c-i__head {
+    background-color: #FFFFFF;
+    box-shadow: 0px 20px 40px 0px #EE4D471A;
+    border-radius: 10px;
+    padding: 20px;
+    height: 70px;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faq__c-i__head h1 {
+    font-family: Rubik;
+    font-weight: 500;
+    font-size: 2vh;
+    line-height: 2.5vh;
+    color: #402B2B;
+}
+
+.faq__c-i__head svg {
+    cursor: pointer;
+}
+
+.faq__c-i__foot {
+    height: 150px;
+    padding: 25px 50px;
+}
+
+.faq__c-i__foot p {
+    font-family: Rubik;
+    font-weight: 300;
+    font-size: 1.5vh;
+    line-height: 2.5vh;
+    color: #402B2B;
+}
+
+.faq__c-2 {
+    display: grid;
+    grid-template-rows: repeat(7, 1fr);
+    grid-row-gap: 20px;
+    width: 80%;
+}
+
+.faq__c-item.more .faq__c-i__head {
+    display: grid;
+    grid-template-columns: 10fr 1fr;
+    background-color: #f6a6a3;
+}
+
+.faq__c-item.more .faq__c-i__head h1 {
+    justify-self: center;
+    color: #ED4D47;
+    font-family: Rubik;
+    font-weight: 700;
+    font-size: 2vh;
+    line-height: 3vh;
+    letter-spacing: 0.05em;
+}
+
+.faq__c-item.more .faq__c-i__head svg {
+    justify-self: flex-end;
+}
+
+/* SECTION->ABOUT-US-2 */
+.about-us-2 {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    margin: 5em 0 5em 5em;
+    overflow: hidden;
+}
+
+.au2__title h1 {
+    font-family: Rubik;
+    font-weight: 700;
+    font-size: 3vh;
+    line-height: 4vh;
+    letter-spacing: 0.1em;
+    color: #EE4D47;
+    margin-bottom: 50px;
+}
+
+.au2__title p {
+    font-family: DMSerifDisplay;
+    font-weight: 400;
+    font-size: 4vh;
+    line-height: 5vh;
+    color: #402B2B;
+}
+
+.au2__content {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.au2__c-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.au2__c-1 svg {
+    cursor: pointer;
+}
+
+.au2__c-2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 50px;
+}
+
+.au2__c-item {
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    padding: 20px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 20px 40px 0px #EE4D471A;
+    border-radius: 10px;
+    height: 250px;
+    width: 400px;
+}
+
+.au2__c-item p {
+    font-family: Rubik;
+    font-weight: 300;
+    font-size: 1.5vh;
+    line-height: 2.5vh;
+    color: #402B2B;
+}
+
+.au2__c-item div {
+    display: inline-flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.au2__c-item div h1 {
+    font-family: Rubik;
+    font-weight: 700;
+    font-size: 1.5vh;
+    line-height: 2.5vh;
+    color: #402B2B;
+}
+
+/* FOOTER */
+footer {
+    background-color: #FEF8F5;
+    background-image: url(../images/bg-4.png);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    /* display: grid;
+    grid-template-rows: 500px 500px; */
+    height: 100vh;
+    gap: 100px;
+    margin: 5em 5em 0 0;
+}
+
+.f__head {
+    margin: 20% auto 0 auto;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    width: 100%;
+    height: 30vh;
+}
+
+.f__h-text {
+    padding: 20px;
+    border-left: 10px solid #ED4D47;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height: 150px;
+    justify-self: flex-end;
+}
+
+.f__h-text p {
+    font-family: Rubik;
+    font-weight: 400;
+    font-size: 2vh;
+    line-height: 3vh;
+    color: #fff;
+}
+
+.f__h-form {
+    justify-self: center;
+}
+
+.f__h-form form {
+    background-color: #FFFFFF;
+    box-shadow: 0px 20px 40px 0px #EE4D471A;
+    border-radius: 10px;
+    padding: 5% 10%;
+    width: 200%;
+    transform: translate(-50px, -150px);
+}
+
+.form-item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 1.5rem 0 1.5rem 0;
+}
+
+.form-item label {
+    font-family: Rubik;
+    font-weight: 300;
+    font-size: 1.5vh;
+    line-height: 3vh;
+    color: #402B2B;
+}
+
+.form-item input {
+    border: 1px solid #EE4D4780;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: Rubik;
+    font-weight: 700;
+    font-size: 1.5vh;
+    line-height: 3vh;
+    color: #402B2B;
+}
+
+.form-item input:focus {
+    outline: 1;
+    outline-color: #EE4D47;
+}
+
+::placeholder {
+    font-family: Rubik;
+    font-weight: 300;
+    font-size: 1.5vh;
+    line-height: 3vh;
+    color: #402B2B;
+}
+
+.f__nav {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-self: center;
+}
+
+.f__n-logo {
+    display: inline-flex;
+    gap: 5%;
+}
+
+.f__n-logo h1 {
+    align-self: center;
+    font-family: DMSerifDisplay;
+    font-weight: 400;
+    font-size: 3vh;
+    line-height: 3vh;
+    color: #fff;
+}
+
+.f__n-links {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 50px;
+    align-self: center;
+}
+
+.f__n-links a {
+    text-decoration: none;
+    font-family: Rubik;
+    font-weight: 400;
+    font-size: 1.5vh;
+    line-height: 2vh;
+    letter-spacing: 0.05em;
+    color: #fff;
+}
+
+/* copyright */
+.copyright {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+    padding: 50px;
+    width: 100%;
+}
+
+.cr__text p {
+    font-family: Rubik;
+    font-weight: 300;
+    font-size: 1.5vh;
+    line-height: 3vh;
+    color: #402B2B;
+}
+
+.cr__links {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.cr__links svg {
+    cursor: pointer;
+}
