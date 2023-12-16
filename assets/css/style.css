@@ -142,3 +142,9 @@ body {
 .card-foot-item.active, .card-foot-item.active a {
     color: #5465ff;
 }
+
+@media screen and (max-width: 576px) {
+    .card {
+        width: 100%;
+    }
+}
