@@ -143,6 +143,20 @@ body {
     color: #5465ff;
 }
 
+#idea {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: #22333b;
+    text-decoration: none;
+    transition: font-weight .3s;
+}
+
+#idea:hover {
+    font-weight: 700;
+    transition: font-weight .3s;
+}
+
 @media screen and (max-width: 576px) {
     .card {
         width: 100%;
