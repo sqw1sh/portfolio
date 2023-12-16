@@ -3,60 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
     <!-- STYLE -->
     <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- ICONS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
     <title>Portfolio by sqw1sh</title>
 </head>
 <body>
+
     <main>
         <section>
-            <div class="accordeon">
-                <div class="head-accordeon">
-                    <h1>sqw1sh</h1>
+            <div class="card">
+                <div class="card-head">
+                    <div class="card-head-about">
+                        <h3>Родион, 18 лет</h3>
+                        <p>Junior frontend developer</p>
+                    </div>
+                    <div class="card-head-img">
+                        <img src="./assets/img/avatar.png" alt="Avatar">
+                    </div>
                 </div>
-                <div class="body-accordeon">
-                    <img class="icon" src="./assets/img/github-logo.svg" alt="github logo">
-                    <a href="https://github.com/sqw1sh?tab=repositories" target="_blank">repositories</a>
-                    <img class="icon" src="./assets/img/vk-logo.svg" alt="vk logo">
-                    <a href="https://vk.com/6qw1sh" target="_blank">profile</a>
-                    <img class="icon" src="./assets/img/tg-logo.svg" alt="tg logo">
-                    <a href="https://t.me/sqw1sh" target="_blank">profile</a>
+                <div class="card-body active">
+                    <div class="card-body-skills">
+                        <ul>
+                            <li><b>Soft Skills</b></li>
+                            <ul>
+                                <li>React js</li>
+                                <li>PHP</li>
+                                <li>Design</li>
+                            </ul>
+                            <li><b>Hard Skills</b></li>
+                            <ul>
+                                <li>HTML/CSS/JS</li>
+                                <li>SCSS/SASS</li>
+                            </ul>
+                        </ul>
+                    </div>
+                    <div class="card-body-exp">
+                        <h3>Опыт работы</h3>
+                        <p>Локальные проекты (1 год) / Фриланс (1 мес)</p>
+                    </div>
                 </div>
-            </div>
-        </section>
-        <section>
-            <div class="works">
-                <a href="./layouts/Dart Service Manager/index.html" target="_blank" title="&#10003; responsive
-&#10006; adaptive">Dart Service Manager</a>
-                <a href="./layouts/SOUNDTRACK/index.html" target="_blank" title="&#10003; responsive
-&#10006; adaptive">SOUNDTRACK</a>
-                <a href="./layouts/TRAFICO/index.html" target="_blank" title="&#10003; responsive
-&#10006; adaptive">TRAFICO</a>
-                <a href="./layouts/Remmy/index.html" target="_blank" title="&#10003; responsive
-&#10006; adaptive">Remmy</a>
+                <div class="card-body">
+                    <div class="card-body-layouts">
+                        <h3>Свёрстанные макеты</h3>
+                        <a href="./layouts/Dart Service Manager/index.html" target="_blank">Dart Service Manager</a>
+                        <a href="./layouts/SOUNDTRACK/index.html" target="_blank">SOUNDTRACK</a>
+                        <a href="./layouts/TRAFICO/index.html" target="_blank">TRAFICO</a>
+                        <a href="./layouts/Remmy/index.html" target="_blank">Remmy</a>
+                    </div>
+                </div>
+                <div class="card-foot">
+                    <div class="card-foot-item active">
+                        <a href="?section=1"><i class="bi bi-person-circle"></i></a>
+                        <p>Профиль</p>
+                    </div>
+                    <div class="card-foot-item">
+                        <a href="?section=2"><i class="bi bi-braces"></i></a>
+                        <p>Работы</p>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
 
-    <div class="eyes">
-        <div class="eye-1">
-            <div class="sharingan">
-                <div class="tomoe-1"></div>
-                <div class="tomoe-2"></div>
-                <div class="tomoe-3"></div>
-            </div>
-            <span></span>
-        </div>
-        <div class="eye-2">
-            <div class="sharingan">
-                <div class="tomoe-1"></div>
-                <div class="tomoe-2"></div>
-                <div class="tomoe-3"></div>
-            </div>
-            <span></span>
-        </div>
-    </div>
-
+    <!-- SCRIPT -->
     <script src="./assets/js/script.js" text="text/javascript"></script>
 </body>
 </html>
