@@ -12,6 +12,9 @@ switch(paramValue) {
     case "2":
         switchActive(2, bodies, items);
         break;
+    case "3":
+        switchActive(3, bodies, items);
+        break;
 }
 
 function switchActive(number, ...arg) {
