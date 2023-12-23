@@ -8,6 +8,8 @@
 
 body {
     background-color: #000;
+    height: 100vh;
+    overflow: hidden;
     color: #22333b;
 }
 
@@ -80,25 +82,21 @@ body {
     /* border-bottom: 1px solid #22333b; */
 }
 
-.card-body-exp h3 {
-    font-size: 1.6rem;
-}
-
 .card-body-exp p {
     font-size: 1.4rem;
 }
 
-.card-body-layouts {
+.card-body-layouts, .card-body-contact {
     padding: 12px 0;
     display: flex;
     flex-direction: column;
 }
 
-.card-body-layouts h3 {
+.card-body-layouts h3, .card-body-contact h3, .card-body-exp h3 {
     font-size: 1.6rem;
 }
 
-.card-body-layouts a {
+.card-body-layouts a, .card-body-contact a {
     text-decoration: none;
     color: #22333b;
     font-size: 1.2rem;
@@ -106,7 +104,7 @@ body {
     transition: font-weight .3s;
 }
 
-.card-body-layouts a:hover {
+.card-body-layouts a:hover, .card-body-contact a:hover {
     font-weight: 700;
     transition: font-weight .3s;
 }
@@ -122,7 +120,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 50%;
+    width: 33.3%;
 }
 
 .card-foot-item a {
